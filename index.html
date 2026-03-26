@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ilaan | CV</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+    color: #333;
+}
+
+/* Fade-in animation */
+.fade {
+    opacity: 0;
+    transform: translateY(15px);
+    animation: fadeIn 0.8s ease forwards;
+}
+.fade:nth-child(1){animation-delay:0.1s;}
+.fade:nth-child(2){animation-delay:0.2s;}
+.fade:nth-child(3){animation-delay:0.3s;}
+.fade:nth-child(4){animation-delay:0.4s;}
+.fade:nth-child(5){animation-delay:0.5s;}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.tag {
+    color: #0077cc;
+    font-weight: bold;
+}
+
+h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.btn-cv { background: #0077cc; }
+.btn-wa { background: #25D366; }
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card hero fade">
+        <!-- Replace image URL -->
+        <img src="profile.jpg" alt="Profile Photo">
+        <h1>Mohamed Ilaan Ahmed Shifau</h1>
+        <p class="tag">Aspiring Airport / Resort Representative</p>
+        <p>📍 Thulhaadhoo, Maldives</p>
+
+        <!-- Buttons -->
+        <a class="btn btn-cv" href="cv.pdf" download>Download CV</a>
+        <a class="btn btn-wa" href="https://wa.me/9609409040" target="_blank">WhatsApp</a>
+    </div>
+
+    <div class="card fade">
+        <h2>About Me</h2>
+        <p>
+        Motivated O-Level graduate with strong communication and teamwork skills.
+        Friendly, reliable, and eager to gain experience in customer service and hospitality.
+        </p>
+    </div>
+
+    <div class="card fade">
+        <h2>Education</h2>
+        <p><strong>Thulhaadhoo School</strong></p>
+        <p>O-Level Completed – 2026</p>
+    </div>
+
+    <div class="card fade">
+        <h2>Skills</h2>
+        <ul>
+            <li>Communication & Customer Service</li>
+            <li>Teamwork & Collaboration</li>
+            <li>Basic Computer Skills</li>
+            <li>Time Management</li>
+            <li>Fast Learner</li>
+        </ul>
+    </div>
+
+    <div class="card fade">
+        <h2>Experience</h2>
+        <ul>
+            <li>Assisted in shop operations and customer service</li>
+            <li>Participated in school group projects</li>
+        </ul>
+    </div>
+
+    <div class="card fade">
+        <h2>Leadership</h2>
+        <ul>
+            <li>Senior Prefect</li>
+            <li>Health Club Secretary & Vice President</li>
+        </ul>
+    </div>
+
+    <div class="card fade">
+        <h2>Interests</h2>
+        <ul>
+            <li>Football</li>
+            <li>Business & Finance</li>
+            <li>Technology</li>
+        </ul>
+    </div>
+
+    <div class="card fade footer">
+        <p>📧 ilaanshifau@gmail.com | 📞 9409040</p>
+    </div>
+
+</div>
+
+</body>
+</html>
